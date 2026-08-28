@@ -1,4 +1,3 @@
-
 import os
 from datetime import date
 import pandas as pd
@@ -161,19 +160,15 @@ st.sidebar.code(
 )
 
 # ----------------------------
-# Demo data
+# User data
 # ----------------------------
 
-if invoice_file is None:
-    invoices = pd.read_csv("sample_invoices.csv")
-    st.info("Using sample invoices. Upload your own CSV from the sidebar when ready.")
-else:
-    invoices = pd.read_csv(invoice_file)
+if invoice_file is None or history_file is None:
+    st.info("Upload your invoices and buyer payment history from the sidebar to begin.")
+    st.stop()
 
-if history_file is None:
-    history = pd.read_csv("sample_buyer_history.csv")
-else:
-    history = pd.read_csv(history_file)
+invoices = pd.read_csv(invoice_file)
+history = pd.read_csv(history_file)
 
 # ----------------------------
 # Validation and scoring
