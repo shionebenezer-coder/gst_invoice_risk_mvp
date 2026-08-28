@@ -1,0 +1,5 @@
+invoice_number,buyer_name,gstin,invoice_amount,invoice_date,due_date
+INV-1001,Kovai Precision Works,33AAAAA0000A1Z5,185000,2026-07-01,2026-07-31
+INV-1002,Southline Components,33BBBBB1111B1Z6,420000,2026-07-10,2026-08-09
+INV-1003,Delta Industrial Supplies,33CCCCC2222C1Z7,95000,2026-08-01,2026-08-31
+INV-1004,Metro Fabrication,33DDDDD3333D1Z8,610000,2026-06-15,2026-07-15

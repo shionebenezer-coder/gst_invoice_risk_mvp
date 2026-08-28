@@ -1,0 +1,5 @@
+gstin,gst_status,avg_payment_delay_days,late_payment_ratio,dispute_count,prior_default_count
+33AAAAA0000A1Z5,ACTIVE,8,0.20,0,0
+33BBBBB1111B1Z6,ACTIVE,26,0.55,1,0
+33CCCCC2222C1Z7,ACTIVE,2,0.05,0,0
+33DDDDD3333D1Z8,ACTIVE,48,0.85,3,1
